@@ -14,3 +14,17 @@ console.log(`
     My country is located in ${continent} and current has aproximately 
     ${population.toLocaleString("en-US")} inhabitants. 
 `);
+
+console.log(Number(currentYear)) // Number
+
+
+const yearsOld = 19
+console.log("I'm Kaique, and I'm " + yearsOld + " years old" ) // + operator automatically converts number 19 to string.
+console.log("I'm Kaique, and I'm " + String(yearsOld) + " years old" ) // this conversion happens automatically
+
+const currentYear = "2023"
+console.log(currentYear - 23) // 2000
+console.log("10" * 2) // 20
+console.log("10" / 2) // 5
+
+
